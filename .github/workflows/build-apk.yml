@@ -25,7 +25,8 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: stable
-          flutter-version: '3.24.3'
+          # Code uses Flutter 3.27+ APIs (Color.withValues, CardThemeData)
+          flutter-version: '3.27.0'
           cache: true
 
       - name: Generate Android platform files
