@@ -167,7 +167,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
           physics: const NeverScrollableScrollPhysics(),
           mainAxisSpacing: 12,
           crossAxisSpacing: 12,
-          childAspectRatio: 1.55,
+          childAspectRatio: 1.45,
           children: [
             KpiCard(title: "REVENUE", value: _money(kpi['today_revenue']), icon: Icons.trending_up, gradient: AppTheme.salesGradient),
             KpiCard(title: "CASH SALE", value: _money(kpi['today_cash']), icon: Icons.payments, gradient: AppTheme.cashGradient),
