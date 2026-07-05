@@ -46,6 +46,11 @@ class AppTheme {
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
+  static const LinearGradient marginGradient = LinearGradient(
+    colors: [Color(0xFFBE185D), Color(0xFFEC4899)],
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+  );
 
   // ── Theme Data ─────────────────────────────────────────────
   static ThemeData get lightTheme {

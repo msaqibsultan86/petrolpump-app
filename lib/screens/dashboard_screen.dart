@@ -174,6 +174,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
             KpiCard(title: "CREDIT SALE", value: _money(kpi['today_credit']), icon: Icons.credit_card, gradient: AppTheme.creditGradient),
             KpiCard(title: "PURCHASES", value: _money(kpi['today_purchases']), icon: Icons.shopping_bag, gradient: AppTheme.purchaseGradient),
             KpiCard(title: "PROFIT (SALE − COGS)", value: _money(kpi['today_profit']), icon: Icons.account_balance, gradient: AppTheme.netGradient),
+            KpiCard(title: "DEALER MARGIN", value: _money(kpi['today_margin']), icon: Icons.percent, gradient: AppTheme.marginGradient),
             KpiCard(title: "EXPENSES", value: _money(kpi['today_expenses']), icon: Icons.receipt_long, gradient: AppTheme.expenseGradient),
           ],
         ),
